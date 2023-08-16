@@ -1,7 +1,6 @@
-import styled from "styled-components";
+import styled from "styled-components"; //Importing the styled-components npm package
 
-export const CardStyle = styled.section`
-/* styles.css */
+export const CardStyle = styled.section` // Defining the CardStyle as a styled section component
 .card {
   border: 1px solid #ddd;
   border-radius: 8px;
