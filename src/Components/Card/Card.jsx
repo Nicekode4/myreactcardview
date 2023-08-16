@@ -1,6 +1,6 @@
 import React from 'react'
 import { CardStyle } from './Card.style'
-import GetRating from '../GetRating/GetRating';
+import GetRating from '../GetRating/GetRating.jsx';
 
 
 
