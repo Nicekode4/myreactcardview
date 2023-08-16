@@ -1,12 +1,12 @@
 import React from 'react'
-import { CardStyle } from './Card.style'
-import GetRating from '../GetRating/GetRating.jsx';
+import { CardStyle } from './Card.style' //importing the styling for card
+import GetRating from '../GetRating/GetRating.jsx'; //Importing the GetRating component
 
 
 
-const Card = ({ product }) => {
+const Card = ({ product }) => {  //Start of the Card component with teh prop as a destruktiot object
     return (
-        <CardStyle>
+        <CardStyle> // Card style component
                  <div className="card" >
                     <img src={product.thumbnail} alt={product.title} className="card-image" />
                     <div className='text-div'>
@@ -15,12 +15,12 @@ const Card = ({ product }) => {
         <p className="card-description">{product.description}</p>
         <p className="card-price">${parseInt(product.price * (1 - product.discountPercentage / 100))}<p className="card-discount">{product.discountPercentage}% off</p></p>
         
-        <GetRating rating={product.rating}/>
+        <GetRating rating={product.rating}/> //Passing the product rating prop to the GetRating componenet
                     </div>
         
         
       </div> 
-        </CardStyle>
+        </CardStyle> // end of thr styleing component
 
     );
   };

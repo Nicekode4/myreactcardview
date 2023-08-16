@@ -1,13 +1,13 @@
-import styled from "styled-components";
+import styled from "styled-components"; //Importing the styled-components npm package
 
-export const CardStyle = styled.section`
-/* styles.css */
+export const CardStyle = styled.section` // Defining the CardStyle as a styled section component
 .card {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;
   margin: 16px;
   width: 100%;
+  height: 35vh;
   background-color: #f7f7f7;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: grid;
@@ -17,7 +17,8 @@ export const CardStyle = styled.section`
 
 .card-image {
   width: 100%;
-  max-height: 300px;
+  
+  height: 35vh;
   object-fit: cover;
   border-radius: 8px;
   margin-right: 1vw;
