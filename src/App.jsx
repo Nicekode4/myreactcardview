@@ -1,6 +1,8 @@
 import Card from "./Components/Card/Card";
 
 function App() {
+  
+
   const product = {
     "id": 1,
   "title": "iPhone 9",
